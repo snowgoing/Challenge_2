@@ -1,0 +1,77 @@
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/*	 Width is 1400 x 500  */
+
+.octodex {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 700;
+	position: absolute;
+	margin-left: -35px;
+	margin-top: 2px;
+}
+
+.octocat {
+	margin: 6px;
+	width: 450px;
+	height: 500px;
+	float: left;
+	display: inline-block;
+}
+
+
+li.octocat img {
+	width: 444px;
+	height: 444px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+
+}
+
+.image-footer {
+	display: block-inline;
+	border-bottom: 1px solid lightgrey;
+	padding: 15px 0px 15px 0px;
+}
+
+.image-number {
+	color: lightgrey;
+	font-weight: 900;
+	
+}
+
+.image-caption {
+	float: right;
+}
+
+.authors {
+	float: right;
+	margin-right: 5px;
+}
+
+ul.authors img {
+	width: 30px;
+	height: 30px;
+	border: none;
+
+}
+
+ul {
+	list-style: none;
+}
+
+span {
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
